@@ -1,10 +1,11 @@
-static void MyMethod(age) 
+static void MyMethod(string fname, int age) 
 {
-  Console.WriteLine(age);
+   Console.WriteLine(fname + " is " + age);
 }
+
 
 static void Main(string[] args)
 {
-  MyMethod(37);
- 
+  MyMethod("Edit", 37);
+
 }
