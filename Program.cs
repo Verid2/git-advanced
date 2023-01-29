@@ -5,7 +5,7 @@ namespace CheererApp
     {
         public static void Main(string[] args)
         {
-            cheer("Hungarian");
+            cheer("English");
         }
 
         public static void cheer(string who, string whom)
