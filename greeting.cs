@@ -9,6 +9,6 @@ class FunctionGreeting
     public static void Greeting(int param)
     {
         //Console.WriteLine("Hello Gergő");
-        Console.WriteLine(param)
+        Console.WriteLine("Greetings!")
     }
 }
