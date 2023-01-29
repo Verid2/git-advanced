@@ -10,7 +10,7 @@ namespace CheererApp
 
         public static void cheer(string who)
         {
-            System.Console.WriteLine(who);
+            System.Console.WriteLine('Chher for the' + who);
         }
     }
 }
