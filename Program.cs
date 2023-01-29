@@ -5,7 +5,8 @@ namespace CheererApp
     {
         public static void Main(string[] args)
         {
-            cheer("Humgarian", "English");
+            // comment to make thing more complex
+            cheer("Spanish"); // Hi there please do not auto merge
 
         }
 
