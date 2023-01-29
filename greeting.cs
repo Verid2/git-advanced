@@ -6,10 +6,11 @@ class FunctionGreeting
         Greeting();
     }
  
-    public static void Greeting(int param)
+    public static void Greeting(int param;char paramTwo)
     {
         //Console.WriteLine("Hello Gergő");
-        Console.WriteLine(param);
+        Console.WriteLine(param,paramTwo);
         Console.WriteLine("Greetings!");
+        
     }
 }
