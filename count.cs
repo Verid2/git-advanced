@@ -1,6 +1,10 @@
-using System;
-
-static void MyMethod() 
+static void MyMethod(age) 
 {
-  Console.WriteLine(37);
+  Console.WriteLine(age);
+}
+
+static void Main(string[] args)
+{
+  MyMethod(37);
+ 
 }
