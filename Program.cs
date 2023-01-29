@@ -5,7 +5,7 @@ namespace CheererApp
     {
         public static void Main(string[] args)
         {
-            cheer("Spanish", "Eng");
+            Console.WriteLine("valami");
 
         }
 
