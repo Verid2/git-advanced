@@ -1,6 +1,6 @@
 static void MyMethod(age) 
 {
-  Console.WriteLine(age);
+  Console.WriteLine("Counting the countless"+ age);
 }
 
 static void Main(string[] args)
