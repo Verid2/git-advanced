@@ -10,5 +10,6 @@ class FunctionGreeting
     {
         //Console.WriteLine("Hello Gergő");
         Console.WriteLine(param);
+        Console.WriteLine("Greetings!")
     }
 }
