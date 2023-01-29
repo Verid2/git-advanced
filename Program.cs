@@ -8,9 +8,13 @@ namespace CheererApp
             cheer("Hungarian");
         }
 
-        public static void cheer(string who)
+        public static void cheer(string who, string whom)
         {
+
             System.Console.WriteLine('Chher for the' + who);
+
+            System.Console.WriteLine(who + " cheers " + whom);
+
         }
     }
 }
