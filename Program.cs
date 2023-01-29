@@ -1,15 +1,16 @@
 using System;
-namespace GreeterApp
+namespace CheererApp
 {
-    public class Greeter
+    public class Cheerer
     {
         public static void Main(string[] args)
         {
-            cheer();
+            cheer("Team");
         }
-        public static void cheer()
+
+        public static void cheer(string who)
         {
-            System.Console.WriteLine("Hello World!");
+            System.Console.WriteLine(who);
         }
     }
 }
